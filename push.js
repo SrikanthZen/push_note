@@ -24,5 +24,4 @@ let sub = {
         auth: "mRyUN8IEiXtrDsY5qVOHZw"
     }
 };
-
 push.sendNotification(sub, 'test message')
