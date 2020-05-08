@@ -14,7 +14,7 @@ let vapidKeys = {
     privateKey: 'hNj6czKgWI1gBZoi7TIJx8hCyGDrRX75IAoiWhJv8b4'
 }
 
-push.setVapidDetails('mailto :srikanth@zenwork.com', vapidKeys.publicKey, vapidKeys.privateKey)
+push.setVapidDetails(vapidKeys.publicKey, vapidKeys.privateKey)
 
 let sub = {
     endpoint: "https://fcm.googleapis.com/fcm/send/c5f5UExHYvo:APA91bGxZqUUVEIhYNgTs1JgdA2SvBaEYZlZSHUrQJjjvea2kA9homKhz0XZbGHKURhblYJwIe2wWSBQqZlKDaVsvT9MAGZlNxRxwbD59F86EtsLrDNCOKSRAdMFa0ct7tl94pugqde0",
